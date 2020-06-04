@@ -1,6 +1,6 @@
 /*
 *	AutomaticCipher Program - This program is designed to encrypt plaintext with a random uniquelly generated key. 
-*									 Decryption of that ciphertext would only be possible with the original key that had been used to encrypt the original plaintext.
+*				  Decryption of that ciphertext would only be possible with the original key that had been used to encrypt the original plaintext.
 *	
 *	By - Joseph Pildush
 */
