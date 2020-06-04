@@ -22,11 +22,11 @@ The decryption process follows relatively the same steps as the encryption proce
  A compiled executable file (.exe) has been provided for use on Windows systems.
  
  ### Executing on Mac/Linux
- **I have provided a compiled output file, if compiling the program is not desired. 
- Compiling and executing on Mac or Linux requires terminal access.**
+ A compiled output file has been provided, if compiling the program is not desired. 
+ Compiling and executing on Mac or Linux requires terminal access.
  
  #### Compiling Source Code in Terminal
- **Please note directly copying the execution lines may give errors during compilation. To prevent this, write out the compile command below into terminal rather than pasting it into terminal**
+ Please note directly copying the execution lines may give errors during compilation. To prevent this, write out the compile command below into terminal rather than pasting it into terminal
  
  ```
  g++ AutomaticCipher.cpp -o AutomaticCipher.out -std=c++11
