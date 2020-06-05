@@ -6,7 +6,7 @@ This is a simple password generator which conforms to the 5 basic online passwor
 4.	A strong password will contain more than 2 special characters
 5.	The best password would not have too many duplicate characters
 
-* The password generator is written in JavaScript and displayed using HTML and Bootstrap
+* **The password generator is written in JavaScript and displayed using HTML and Bootstrap**
 
-* To open the generator, please open passGenerator.html
+* **To open the generator, please open passGenerator.html**
 
