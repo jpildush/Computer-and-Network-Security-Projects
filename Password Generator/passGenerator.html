@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Password Generator</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/the-big-picture.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Page Content -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9 col-md-9 col-lg-9">
+          <h1 class="mt-5">Password Generator</h1>
+          <h4>---By Joseph Pildush</h4> 
+          <br><br>
+          <div class="col-sm-11 col-md-11 col-lg-11">
+            <h5>Password Criteria:</h5>
+            <ul>
+              <li>Password must be between 8 and 16 characters in length</li>
+              <li>A strong password will contain at least 1 number</li>
+              <li>A strong password will contain at least 1 uppercase and 1 lowercase letter</li>
+              <li>A strong password will contain more than 2 special characters</li>
+              <li>The best password would not have too many duplicate characters</li>
+            </ul>
+            <label><u><b>Generate a Password that Meets the criteria</b></u></label>
+            <br><br>
+          </div>
+          <div class="col-sm-1 col-md-1 col-lg-1">
+            <form id="passform" method="POST" action="javascript:generatePass();">
+              <label>
+                Enter Length:
+                <input type="text" id="passLength" name="passLength" class="passLength" placeholder="...Password Length..."><br><br>
+              </label>
+              <button type="submit">Generate</button><br><br>
+              <label>
+                Generated Password:
+                <textarea rows="4" style="resize:none" id="newPass" name="newPass" class="newPass" placeholder="...Generated Password..." readonly></textarea>
+                <!-- <input type="text" id="newPass" name="newPass" class="newPass" placeholder="...Generated Password..." readonly> -->
+              </label>
+            </form>
+          </div>
+          <p>
+            Generator has been designed in such a way that there will not be a special character after
+            another special character, nor a letter after another letter.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/passGenerator.js"></script>
+
+</body>
+
+</html>
